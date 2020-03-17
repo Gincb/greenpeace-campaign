@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+    margin:0;
+
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+    z-index: 2;
+    position: relative;
+
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.container{
+    height: 70px;
+    width: 70px;
+    background-color: transparent;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    z-index: 3;
+}
+.menu {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 1;
+}
+
+
+.expand {
+
+    animation: expandMovement 0.4s ease;
+    width:20vw;
+    height: 100vh;
+    border-radius:0;
+    background-color: white;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+
+@keyframes expandMovement {
+    from {
+
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 1;
+
+    }
+    to{
+    width:20vw;
+    height: 100vh;
+    border-radius:0;
+    background-color: white;
+    left: 0;
+    top: 0;
+    margin: 0;
+    }
+}
+
+.retract {
+    animation: retractMovement 0.4s ease;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 1;
+}
+
+@keyframes retractMovement {
+    from {
+    width:20vw;
+    height: 100vh;
+    border-radius:0;
+    background-color: white;
+    left: 0;
+    top: 0;
+    margin: 0;
+
+    }
+    to {
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 1;
+    }
+}
