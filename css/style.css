@@ -44,7 +44,11 @@ body {
     position: absolute;
     left:0;
     top:0;
+<<<<<<< HEAD
     z-index: 99;
+=======
+    z-index: 1;
+>>>>>>> BurgerMenu
 }
 
 
@@ -52,7 +56,11 @@ body {
 
     animation: expandMovement 0.4s ease;
     width:20vw;
+<<<<<<< HEAD
     height: 20vh;
+=======
+    height: 100vh;
+>>>>>>> BurgerMenu
     border-radius:0;
     background-color: white;
     left: 0;
@@ -75,7 +83,11 @@ body {
     }
     to{
     width:20vw;
+<<<<<<< HEAD
     height: 20vh;
+=======
+    height: 100vh;
+>>>>>>> BurgerMenu
     border-radius:0;
     background-color: white;
     left: 0;
@@ -99,7 +111,11 @@ body {
 @keyframes retractMovement {
     from {
     width:20vw;
+<<<<<<< HEAD
     height: 20vh;
+=======
+    height: 100vh;
+>>>>>>> BurgerMenu
     border-radius:0;
     background-color: white;
     left: 0;
