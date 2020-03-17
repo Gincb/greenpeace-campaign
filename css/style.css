@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
 
@@ -36,6 +36,28 @@ body {
 .GPLocations h3 {
     color: #36bbae;
     text-transform: uppercase;
+}
+
+.footer {
+    padding: 1em 2em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: #36bbae;
+    color: white;
+}
+
+.footer h3 {
+    text-transform: uppercase;
+}
+
+.footer-icons {
+    display: inline-block;
+}
+
+.footer-icons i {
+    padding: 1em 2em 1em 0;
 }
 
 .bar1, .bar2, .bar3 {
