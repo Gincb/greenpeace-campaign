@@ -29,6 +29,15 @@ body {
     background-color: #36bbae;
 }
 
+.GPLocations {
+    padding: 0 2em;
+}
+
+.GPLocations h3 {
+    color: #36bbae;
+    text-transform: uppercase;
+}
+
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
