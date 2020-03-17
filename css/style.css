@@ -14,6 +14,7 @@ body {
 }
 
 .video-text {
+    margin: 2em 0;
     padding: 0 2em;
     text-align: center;
 }
@@ -30,6 +31,7 @@ body {
 }
 
 .GPLocations {
+    margin: 2em 0;
     padding: 0 2em;
 }
 
@@ -39,16 +41,17 @@ body {
 }
 
 .footer {
-    padding: 1em 2em;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100vw;
     background-color: #36bbae;
     color: white;
 }
 
-.footer h3 {
+.footer-wrapper {
+    width: 80%;
+    padding: 1em 2em;
+}
+
+.footer-wrapper h3 {
     text-transform: uppercase;
 }
 
