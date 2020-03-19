@@ -15,9 +15,20 @@ body {
 .map {
     position: relative;
     height: 100vh;
-    background-position: center;
     background-size: cover;
     background-image: url("../images/planet.jpg");
+}
+
+.center {
+    background-position: center;
+}
+
+.left {
+    background-position: left;
+}
+
+.right {
+    background-position: right;
 }
 
 .map-left {
@@ -68,6 +79,7 @@ body {
 }
 
 .GPLocations {
+    margin: 0 0 2em 0;
     padding: 0 2em;
 }
 
@@ -276,5 +288,18 @@ img:hover{
         overflow: visible;
         width: 450px;
         height: 200px;
+    }
+
+    .map {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .map-left, .map-right {
+        display: none;
+    }
+
+    .header h1 {
+        padding-top: 1em;
     }
 }
