@@ -6,7 +6,7 @@ body {
 }
 
 .video-wrapper {
-    padding: 1em 0;
+    padding: 1em 0 0;
     width: 100vw;
     max-width: 100%;
     height: auto;
@@ -14,7 +14,7 @@ body {
 }
 
 .video-text {
-    margin: 2em 0;
+    margin: 1em 0 2em;
     padding: 0 2em;
     text-align: center;
 }
