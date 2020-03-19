@@ -5,6 +5,43 @@ body {
     overflow-x: hidden;
 }
 
+.header h1 {
+    padding-top: 5em;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.map {
+    position: relative;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/planet.jpg");
+}
+
+.map-left {
+    position: absolute;
+    top: 50vh;
+    left: 1em;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12.5px 21.7px 12.5px 0;
+    border-color: transparent #000 transparent transparent;
+}
+
+.map-right {
+    position: absolute;
+    top: 50vh;
+    right: 1em;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12.5px 0 12.5px 21.7px;
+    border-color: transparent transparent transparent #000000;
+}
+
 .video-wrapper {
     padding: 1em 0 0;
     width: 100vw;
@@ -31,7 +68,6 @@ body {
 }
 
 .GPLocations {
-    margin: 2em 0;
     padding: 0 2em;
 }
 
@@ -177,10 +213,11 @@ EDIT ON
 
 .container{
     margin: 4% auto;
-    width: 210px;
-    height: 140px;
+    width: 330px;
+    height: 170px;
     position: relative;
     perspective: 1000px;
+    overflow: hidden;
 }
 #carousel{
     width: 100%;
@@ -234,3 +271,10 @@ img:hover{
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .container {
+        overflow: visible;
+        width: 450px;
+        height: 200px;
+    }
+}
