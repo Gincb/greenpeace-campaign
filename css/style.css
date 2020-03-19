@@ -128,6 +128,7 @@ label:before {
   height: 250vh;
   -webkit-transition: all .3s;
   transition: all .3s;
+  z-index: 9;
 }
 
 .menu-container .links {
@@ -200,7 +201,7 @@ EDIT ON
     top: 10px;
     background: black;
     overflow: hidden;
-    border: solid 5px black;
+    box-shadow: 3px 2px 5px #525252;
 }
 #carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
 #carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
