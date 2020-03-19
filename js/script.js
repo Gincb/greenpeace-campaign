@@ -2,8 +2,6 @@ const mapL = document.querySelector(".map-left");
 const mapR = document.querySelector(".map-right");
 const map = document.querySelector(".map");
 
-console.log(mapL)
-
 mapL.addEventListener("click", addMapLeft);
 mapR.addEventListener("click", addMapRight);
 
