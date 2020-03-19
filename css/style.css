@@ -154,7 +154,7 @@ label {
 label:before {
   content: "";
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 65%;
   width: 1em;
   height: 0.15em;
@@ -290,16 +290,36 @@ img:hover{
         height: 200px;
     }
 
-    .map {
-        background-size: contain;
-        background-repeat: no-repeat;
+    .header h1 {
+        padding-top: 1em;
+    }
+    
+    iframe {
+        width: 50vw;
+        height: 30vw;
+    }
+
+    .video-text{
+        padding: 0.5em 5em 2em;
+    }
+
+    .GPLocations {
+        margin: -5em 0 0;
+        padding: 0 5em 2em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .video-text{
+        padding: 0.5em 20em;
     }
 
     .map-left, .map-right {
         display: none;
     }
-
-    .header h1 {
-        padding-top: 1em;
+    
+    .map {
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
