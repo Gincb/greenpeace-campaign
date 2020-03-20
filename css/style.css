@@ -149,8 +149,8 @@ a {
   overflow: hidden;
   left: 0;
   top: 0;
-  -webkit-transition-delay: .3s;
-          transition-delay: .3s;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
 }
 
 .menu {
@@ -161,8 +161,8 @@ a {
   border-radius: 100%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  /* -webkit-transition: all .3s;
+  transition: all .3s; */
 }
 
 #hamburger {
@@ -203,8 +203,8 @@ label:before {
 #hamburger:checked ~ .menu-container .menu {
   width: 250vh;
   height: 250vh;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all .6s;
+  transition: all 0.6s;
   z-index: 9;
 }
 
