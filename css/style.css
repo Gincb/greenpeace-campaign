@@ -5,6 +5,11 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .header h1 {
     padding-top: 5em;
     font-size: 1em;
@@ -67,7 +72,7 @@ body {
     text-align: center;
 }
 
-.video-text button {
+.video-text button, .GPContent button {
     padding: 0.5rem 1rem;
     text-align: center;
     text-decoration: none;
@@ -78,14 +83,33 @@ body {
     background-color: #36bbae;
 }
 
-.GPLocations {
+.GPContent {
     margin: 0 0 2em 0;
     padding: 0 2em;
+    text-align: center;
 }
 
-.GPLocations h3 {
+.GPContent h3 {
     color: #36bbae;
     text-transform: uppercase;
+}
+
+.GPFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.GPFlex div {
+    width: 200px;
+    padding: 0.5em;
+}
+
+.GPFlex div h1 {
+    color: #36bbae;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
 }
 
 .footer {
@@ -303,7 +327,7 @@ img:hover{
         padding: 0.5em 5em 2em;
     }
 
-    .GPLocations {
+    .GPContent {
         margin: -5em 0 0;
         padding: 0 5em 2em;
     }
