@@ -121,6 +121,9 @@ a {
 .footer-wrapper {
     width: 80%;
     padding: 1em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .footer-wrapper h3 {
@@ -129,6 +132,8 @@ a {
 
 .footer-icons {
     display: inline-block;
+    margin: auto 0;
+    text-align: center;
 }
 
 .footer-icons i {
