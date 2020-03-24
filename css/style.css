@@ -359,6 +359,118 @@ img:hover{
     }
 }
 
+/*Our Team*/
+
+.team h1,
+.about h1 {
+    padding-bottom: 1em;
+    padding-top: 2.5em;
+    font-size: 2em;
+    line-height: 1.2;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+.team > .team-container {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+    margin-bottom: 100px;
+
+/*
+    flex-direction: column;
+    align-content: center;
+    flex-wrap:wrap;
+*/
+}
+
+.about-container {
+    padding: 3em;
+    margin: 0 12em;
+    background-color: #e2e2e25e;
+}
+
+.about-container p {
+    text-align: center;
+    font-style: italic;
+}
+
+.team .member-card {
+    margin: 2%;
+}
+
+.team .member-box {
+    width: 43vw;
+    height: 200px;
+    background: #e2e2e25e;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.team .member-box h3 {
+    padding-top: 50px;
+
+}
+
+.team .member-box span p {
+    color: #60a1d6;
+    font-weight: 200;
+
+}
+
+.team .member-img {
+    position: relative;
+    z-index: 100;
+    margin-bottom: -50px;
+   margin-left: auto;
+    margin-right: auto;
+    height: 34vw;
+    width: 34vw;
+    border-radius: 50%;
+    border: 12px white solid;
+
+}
+
+.team .nitzan {
+    background-image: url("../images/nitzan.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.team .daniel {
+    background-image: url("../images/Daniel%20Momtahanny.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.team .gintare {
+    background-image: url("../images/Gintar%C4%97%20Bespalovait%C4%97.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.team .alex {
+    background-image: url("../images/Alexander%20Nielsen.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.team .suzana {
+    background-image: url("../images/Zsuzana%20Vargyas.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 /*breaking points*/
 
 @media only screen and (min-width: 768px) {
@@ -414,10 +526,29 @@ img:hover{
 
     }
 
+<<<<<<< HEAD
     .pin-amazon {
         display: inline-block!important;
         bottom: 13em;
         left: 16em;
     }
 
+=======
+.team > .team-container {
+   flex-direction: row;
+    }
+
+    .team .member-box {
+    width: 20vw;
+}
+
+    .team .member-img {
+        height: 10vw;
+        width: 10vw;
+
+    }
+
+
+
+>>>>>>> ourTeam
 }
