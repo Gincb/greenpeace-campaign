@@ -491,7 +491,19 @@ img:hover{
         margin: -5em 0 0;
         padding: 0 5em 2em;
     }
+.team > .team-container {
+   flex-direction: row;
+    }
 
+    .team .member-box {
+    width: 20vw;
+}
+
+    .team .member-img {
+        height: 10vw;
+        width: 10vw;
+
+    }
 
 }
 
@@ -520,29 +532,13 @@ img:hover{
 
     }
 
-<<<<<<< HEAD
+
     .pin-amazon {
         display: inline-block!important;
         bottom: 13em;
         left: 16em;
     }
 
-=======
-.team > .team-container {
-   flex-direction: row;
-    }
-
-    .team .member-box {
-    width: 20vw;
-}
-
-    .team .member-img {
-        height: 10vw;
-        width: 10vw;
-
-    }
 
 
-
->>>>>>> ourTeam
 }
