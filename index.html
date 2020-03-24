@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <script src="https://kit.fontawesome.com/8a223d976c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>The Green Concept</title>
 </head>
@@ -28,6 +29,22 @@
 <div class="map center">
     <div class="map-left"></div>
     <div class="map-right"></div>
+    <div class="pin-amazon dn">
+        <spam id="play-video" data-target="#myAmazon" data-toggle="modal">
+            <i class="fas fa-map-pin"></i>
+        </spam>
+    </div>
+</div>
+
+<div id="myAmazon" class="modal fade bd-example-modal-xl" role="dialog">
+    <spam id="modalId" class="close-btn" data-dismiss="modal"><i class="fas fa-times"></i></spam>
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-body">
+                <iframe id="video-yt" width="560" height="315" src="https://www.youtube.com/embed/yisUvMX78G8?vq=hd1080&autoplay=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- MAIN VIDEO -->
@@ -40,7 +57,7 @@
 <div class="video-text">
     <p>The world is in danger, and you can be the change it needs! We encourage you to join us and take action by starting your own campaign with Greenpeace, and give a voice to our planet. You can truly make an impact in the world by taking one step at a time.</p>
 <!--    <button><a href="https://www.graesrod.org/">Make a change</a></button>-->
-<button id="Url1"  target="_blank">Make a change</button>
+    <button id="Url1"  target="_blank">Make a change</button>
 </div>
   
 <!--    360 Carousel-->
@@ -82,7 +99,7 @@
             <p>For nearly 50 years, Greenpeace has been sailing the world’s oceans protecting our planet and fighting for environmental justice.</p></div>
         </div>
 <!--        <button><a href="https://www.greenpeace.org/international/">Learn more about Greenpeace</a></button>-->
-    <button id="Url2" target="_blank">Learn more about Greenpeace</button>
+        <button id="Url2" target="_blank">Learn more about Greenpeace</button>
     </div>
 
     <!-- FOOTER -->
@@ -111,5 +128,8 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
