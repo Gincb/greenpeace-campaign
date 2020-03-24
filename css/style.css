@@ -474,9 +474,11 @@ img:hover{
         height: 200px;
     }
 
+/*
     .header h1 {
         padding-top: 1em;
     }
+*/
     
     iframe {
         width: 50vw;
@@ -500,8 +502,8 @@ img:hover{
 }
 
     .team .member-img {
-        height: 10vw;
-        width: 10vw;
+        height: 15vw;
+        width: 15vw;
 
     }
 
