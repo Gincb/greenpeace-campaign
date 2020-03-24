@@ -51,7 +51,7 @@ a {
 .pin-amazon {
     cursor: pointer;
     position: absolute;
-    bottom: 9em;
+    bottom: 8em;
     left: 12em;
     color: rgb(255, 53, 53);
     font-size: 1.5em;
@@ -493,20 +493,25 @@ img:hover{
         margin: -5em 0 0;
         padding: 0 5em 2em;
     }
-.team > .team-container {
-   flex-direction: row;
+
+    .pin-amazon {
+        bottom: 15em;
+        left: 22em;
+    }
+
+    .team > .team-container {
+        flex-direction: row;
     }
 
     .team .member-box {
     width: 20vw;
-}
+    }
 
     .team .member-img {
         height: 15vw;
         width: 15vw;
 
     }
-
 }
 
 @media only screen and (min-width: 992px) {
@@ -534,13 +539,24 @@ img:hover{
 
     }
 
-
     .pin-amazon {
         display: inline-block!important;
-        bottom: 13em;
-        left: 16em;
+        bottom: 19em;
+        left: 14em;
     }
 
+}
 
+@media only screen and (min-width: 1200px) {
+    .pin-amazon {
+        bottom: 29em;
+        left: 17em;
+    }
+}
 
+@media only screen and (min-width: 1440px) {
+    .pin-amazon {
+        bottom: 27em;
+        left: 20em;
+    }
 }
