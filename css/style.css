@@ -1,3 +1,5 @@
+ @import url(https://fonts.googleapis.com/css?family=Anaheim);
+
 body {
     margin: 0;
     padding: 0;
@@ -158,6 +160,7 @@ a {
   width: 10rem;
   height: 10rem;
   background-color: #36bbae;
+    opacity: 0.6;
   border-radius: 100%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -216,13 +219,17 @@ label:before {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   text-align: center;
+
 }
 .menu-container .links a {
   display: block;
   color: white;
   font-size: 1rem;
+font-weight: 11px;
   text-decoration: none;
-  margin: 1rem;
+  margin: 20px;
+
+
 }
 
 
@@ -236,9 +243,6 @@ label:before {
 
 
 /*carousel*/
-HTML  CSS  JS Result
-EDIT ON
- @import url(https://fonts.googleapis.com/css?family=Anaheim);
 
 *{
   margin: 0;
@@ -312,6 +316,8 @@ img:hover{
     }
 }
 
+/*breaking points*/
+
 @media only screen and (min-width: 768px) {
     .container {
         overflow: visible;
@@ -336,6 +342,8 @@ img:hover{
         margin: -5em 0 0;
         padding: 0 5em 2em;
     }
+
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -351,4 +359,16 @@ img:hover{
         background-size: contain;
         background-repeat: no-repeat;
     }
+
+    .menu-container .links {
+        left: 5vw;
+        top: 25vh;
+    }
+
+    #hamburger:checked ~ .menu-container .menu {
+         width: 40vh;
+         height: 650vh;
+
+    }
+
 }
