@@ -377,12 +377,6 @@ img:hover{
     flex-wrap: wrap;
    justify-content: space-evenly;
     margin-bottom: 100px;
-
-/*
-    flex-direction: column;
-    align-content: center;
-    flex-wrap:wrap;
-*/
 }
 
 .about-container {
@@ -402,7 +396,7 @@ img:hover{
 
 .team .member-box {
     width: 43vw;
-    height: 200px;
+    height: 300px;
     background: #e2e2e25e;
     z-index: 1;
     text-align: center;
