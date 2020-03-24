@@ -48,13 +48,26 @@ a {
 
 /* PINS */
 
-.pin-amazon {
+.pin {
     cursor: pointer;
     position: absolute;
-    bottom: 8em;
-    left: 12em;
     color: #ff3535;
     font-size: 1.5em;
+}
+
+.pin-amazon {
+    bottom: 8em;
+    left: 12em;
+}
+
+.pin-arctic {
+    top: 1em;
+    left: 50vw;
+}
+
+.pin-antarctica {
+    bottom: 3em;
+    left: 50vw;
 }
 
 #video-yt {

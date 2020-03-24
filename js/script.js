@@ -4,6 +4,8 @@ const mapL = document.querySelector(".map-left");
 const mapR = document.querySelector(".map-right");
 const map = document.querySelector(".map");
 const pinAmazon = document.querySelector(".pin-amazon");
+const pinArctic = document.querySelector(".pin-arctic");
+const pinAntarctica = document.querySelector(".pin-antarctica");
 
 mapL.addEventListener("click", addMapLeft);
 mapR.addEventListener("click", addMapRight);
@@ -16,6 +18,10 @@ function addMapLeft() {
         mapR.classList.remove("dn");
         pinAmazon.classList.add("dl");
         pinAmazon.classList.remove("dn");
+        pinArctic.classList.add("dn");
+        pinArctic.classList.remove("dl");
+        pinAntarctica.classList.add("dn");
+        pinAntarctica.classList.remove("dl");
     } else {
         map.classList.remove("right");
         map.classList.add("center");
@@ -23,6 +29,10 @@ function addMapLeft() {
         mapR.classList.remove("dn");
         pinAmazon.classList.remove("dl");
         pinAmazon.classList.add("dn");
+        pinArctic.classList.add("dl");
+        pinArctic.classList.remove("dn");
+        pinAntarctica.classList.remove("dn");
+        pinAntarctica.classList.add("dl");
     }
 }
 
@@ -34,6 +44,10 @@ function addMapRight() {
         mapL.classList.remove("dn");
         pinAmazon.classList.remove("dl");
         pinAmazon.classList.add("dn");
+        pinArctic.classList.add("dn");
+        pinArctic.classList.remove("dl");
+        pinAntarctica.classList.add("dn");
+        pinAntarctica.classList.remove("dl");
     } else {
         map.classList.remove("left");
         map.classList.add("center");
@@ -41,6 +55,10 @@ function addMapRight() {
         mapL.classList.remove("dn");
         pinAmazon.classList.remove("dl");
         pinAmazon.classList.add("dn");
+        pinArctic.classList.add("dl");
+        pinArctic.classList.remove("dn");
+        pinAntarctica.classList.remove("dn");
+        pinAntarctica.classList.add("dl");
     }
 }
 
@@ -60,12 +78,16 @@ function openUrl2(){
 // PINS
 
 const video = document.getElementById('video-yt');
-const button = document.getElementById('play-video');
+const button = document.querySelectorAll('#play-amazon');
 const close = document.getElementById('modalId');
 const myAmazon = document.getElementById('myAmazon');
+const myArctic = document.getElementById('myArctic');
+const myAntarctica = document.getElementById('myAmazon');
 
 button.addEventListener("click", addFullscreen);
 myAmazon.addEventListener("click", addClose);
+myArctic.addEventListener("click", addClose);
+myAntarctica.addEventListener("click", addClose);
 close.addEventListener("click", addClose);
 
 function addFullscreen(e) {
