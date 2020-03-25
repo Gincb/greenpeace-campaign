@@ -4,8 +4,13 @@ const mapL = document.querySelector(".map-left");
 const mapR = document.querySelector(".map-right");
 const map = document.querySelector(".map");
 const pinAmazon = document.querySelector(".pin-amazon");
+const pinAmazon2 = document.querySelector(".pin-amazon2");
 const pinArctic = document.querySelector(".pin-arctic");
 const pinAntarctica = document.querySelector(".pin-antarctica");
+const pinJapan = document.querySelector(".pin-japan");
+const pinChina = document.querySelector(".pin-china");
+const pinChina2 = document.querySelector(".pin-china2");
+const pinTaiwan = document.querySelector(".pin-taiwan");
 
 mapL.addEventListener("click", addMapLeft);
 mapR.addEventListener("click", addMapRight);
@@ -18,10 +23,20 @@ function addMapLeft() {
         mapR.classList.remove("dn");
         pinAmazon.classList.add("dl");
         pinAmazon.classList.remove("dn");
+        pinAmazon2.classList.add("dni");
+        pinAmazon2.classList.remove("dli");
         pinArctic.classList.add("dn");
         pinArctic.classList.remove("dl");
         pinAntarctica.classList.add("dn");
         pinAntarctica.classList.remove("dl");
+        pinJapan.classList.add("dn");
+        pinJapan.classList.remove("dl");
+        pinChina.classList.add("dn");
+        pinChina.classList.remove("dl");
+        pinChina2.classList.add("dni");
+        pinChina2.classList.remove("dli");
+        pinTaiwan.classList.add("dn");
+        pinTaiwan.classList.remove("dl");
     } else {
         map.classList.remove("right");
         map.classList.add("center");
@@ -29,10 +44,20 @@ function addMapLeft() {
         mapR.classList.remove("dn");
         pinAmazon.classList.remove("dl");
         pinAmazon.classList.add("dn");
+        pinAmazon2.classList.add("dli");
+        pinAmazon2.classList.remove("dni");
         pinArctic.classList.add("dl");
         pinArctic.classList.remove("dn");
         pinAntarctica.classList.remove("dn");
         pinAntarctica.classList.add("dl");
+        pinJapan.classList.add("dn");
+        pinJapan.classList.remove("dl");
+        pinChina.classList.add("dn");
+        pinChina.classList.remove("dl");
+        pinChina2.classList.add("dli");
+        pinChina2.classList.remove("dni");
+        pinTaiwan.classList.add("dn");
+        pinTaiwan.classList.remove("dl");
     }
 }
 
@@ -44,10 +69,20 @@ function addMapRight() {
         mapL.classList.remove("dn");
         pinAmazon.classList.remove("dl");
         pinAmazon.classList.add("dn");
+        pinAmazon2.classList.add("dni");
+        pinAmazon2.classList.remove("dli");
         pinArctic.classList.add("dn");
         pinArctic.classList.remove("dl");
         pinAntarctica.classList.add("dn");
         pinAntarctica.classList.remove("dl");
+        pinJapan.classList.add("dl");
+        pinJapan.classList.remove("dn");
+        pinChina.classList.add("dl");
+        pinChina.classList.remove("dn");
+        pinChina2.classList.add("dni");
+        pinChina2.classList.remove("dli");
+        pinTaiwan.classList.add("dl");
+        pinTaiwan.classList.remove("dn");
     } else {
         map.classList.remove("left");
         map.classList.add("center");
@@ -55,10 +90,20 @@ function addMapRight() {
         mapL.classList.remove("dn");
         pinAmazon.classList.remove("dl");
         pinAmazon.classList.add("dn");
+        pinAmazon2.classList.add("dli");
+        pinAmazon2.classList.remove("dni");
         pinArctic.classList.add("dl");
         pinArctic.classList.remove("dn");
         pinAntarctica.classList.remove("dn");
         pinAntarctica.classList.add("dl");
+        pinJapan.classList.add("dn");
+        pinJapan.classList.remove("dl");
+        pinChina.classList.add("dn");
+        pinChina.classList.remove("dl");
+        pinChina2.classList.add("dli");
+        pinChina2.classList.remove("dni");
+        pinTaiwan.classList.add("dn");
+        pinTaiwan.classList.remove("dl");
     }
 }
 
