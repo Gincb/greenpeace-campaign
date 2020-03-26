@@ -1,3 +1,26 @@
+scroll = document.getElementById("scroll");
+window.onscroll = function () {
+    scrollDisplay()
+};
+
+function scrollDisplay() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scroll.style.display = "block";
+    } else {
+        scroll.style.display = "none";
+    }
+}
+
+function scrollToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+
+
+
+
+
 // MAP
 
 const mapL = document.querySelector(".map-left");
@@ -146,3 +169,4 @@ function addClose(e) {
     video.src = isPause ? video.src.replace('autoplay=1', 'autoplay=0') :
         video.src.replace('autoplay=0', 'autoplay=1');
 }
+
